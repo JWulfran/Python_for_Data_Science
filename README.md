@@ -81,7 +81,7 @@ Ce projet vise à prédire les prix de logements à partir de caractéristiques 
 
 ---
 
-![Housing Price Prédiction](Housing_price_prédiction_pic.png)
+![Housing Price Prédiction](./img/Housing_price_prédiction_pic.png)
 
 ---
 
