@@ -143,3 +143,80 @@ Ce projet vise à prédire les prix de logements à partir de caractéristiques 
 ---
 
 📂 _Ce projet fait partie de mon portfolio en science des données. Il illustre ma capacité à transformer des données en insights prédictifs avec une approche rigoureuse et reproductible._
+
+---
+
+# 🛒 Analyse du Panier d’Achat (Market Basket Analysis) – Python
+
+Ce projet applique une **analyse du panier d’achat** (Market Basket Analysis) à l’aide de **l’algorithme Apriori**, afin d’identifier des **règles d’association** entre les produits achetés ensemble. Il est couramment utilisé dans les secteurs du retail et de l’e-commerce pour optimiser le cross-selling et le merchandising.
+
+🔗 **Notebook GitHub** : [Market_basket_analysis.ipynb](https://github.com/JWulfran/Python_for_Data_Science/blob/0e817a1d26ed4510787a5092997d6b0ebd0407c3/Market_basket_analysis.ipynb)
+
+---
+
+## 🎯 Objectifs du projet
+
+- Identifier les **produits fréquemment achetés ensemble**
+- Générer des **règles d’association** (ex: si A → alors B)
+- Visualiser les patterns d’achats pour orienter les actions commerciales
+- Comprendre le **comportement client** à travers les transactions
+
+---
+
+## 🛠️ Technologies utilisées
+
+- **Python**
+  - `pandas`, `mlxtend`, `numpy`
+  - `matplotlib`, `seaborn` pour la visualisation
+- **Algorithmes** : Apriori, règles d’association (`association_rules`)
+
+---
+
+## 📈 Étapes du projet
+
+1. **Chargement des données transactionnelles**
+
+   - Format type : transactions ou panier par ligne
+
+2. **Préparation des données**
+
+   - Transformation en **tableau binaire** (one-hot encoding)
+   - Nettoyage des données produits
+
+3. **Application de l’algorithme Apriori**
+
+   - Définition d’un **support minimum**
+   - Extraction des **itemsets fréquents**
+
+4. **Génération de règles d’association**
+
+   - Calcul des métriques : _support_, _confiance_, _lift_
+   - Filtrage des règles pertinentes
+
+5. **Visualisation des résultats**
+   - Diagrammes de support/lift/confiance
+   - Heatmaps des corrélations
+
+---
+
+## 📊 Résultats
+
+- Identification de combinaisons de produits fréquentes
+- Règles du type :
+  - _"Clients qui achètent du pain achètent souvent aussi du fromage"_
+- Recommandations possibles pour :
+  - Cross-selling / ventes croisées
+  - Promotions ciblées
+  - Optimisation du placement en magasin
+
+---
+
+## 🧠 Ce que j’ai appris
+
+- Appliquer des techniques de **data mining** dans un contexte commercial
+- Utiliser **Apriori et association_rules** pour des règles interprétables
+- Analyser les données transactionnelles pour orienter les décisions stratégiques
+
+---
+
+📂 _Ce projet illustre mon savoir-faire en science des données appliquée au marketing et à l’analyse comportementale. Il est parfaitement transposable à des cas réels de vente au détail ou d’e-commerce._
